@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Bike Eletrica",
+      "valor": "7899.99",
+      "foto": "https://images.tcdn.com.br/img/img_prod/613037/bicicleta_eletrica_fat_bike_coswheel_t20_10_ah_575_1_97b41b35f06463d6a1b54fa2a79d4eaa.png"
+    },
+    {
+      "id": "2",
+      "nome": "Patins Antigo",
+      "valor": "299.99",
+      "foto": "https://www.voceselembra.com/wp-content/uploads/2021/04/patins-antigo-pro-life-e1618910262407-768x841.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "HoverBoard",
+      "valor": "789.99",
+      "foto": "https://www.bluewheel.de/media/catalog/product/cache/35/image/9df78eab33525d08d6e5fb8d27136e95/h/x/hx310s_hoverboard_chrome_blue_01_1.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "War",
+      "valor": "119.99",
+      "foto": "https://a-static.mlcdn.com.br/1500x1500/jogo-war-tabuleiro-o-jogo-da-estrategia-grow/magazineluiza/220544200/338d628e11484f9f1498514542806486.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Jogo Memória Das Cores, Xadrez Para Crianças",
+      "valor": "98.45",
+      "foto": "https://images-americanas.b2w.io/produtos/3079001540/imagens/jogo-memoria-das-cores-xadrez-para-criancas/3079001540_1_large.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Mesa para Jogo de Botão com Marcador",
+      "valor": "68.80",
+      "foto": "https://www.lojavirtualphysicus.com.br/content/images/thumbs/0001990_mesa-para-jogo-de-botao_600.jpeg"
+    },
+    {
+      "id": "7",
+      "nome": "Bike Eletrica",
+      "valor": "7899.99",
+      "foto": "https://viverdebike.com.br/wp-content/uploads/2020/11/2019-Recon-2-1024x768.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Gervonta tank davis",
+      "valor": "15.00",
+      "foto": "https://234fight.com/wp-content/images/7cf804a6c7fcea1acaf192591e4d594d.jpg"
+    }
+  ]
+}

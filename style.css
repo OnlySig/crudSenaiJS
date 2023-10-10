@@ -37,8 +37,9 @@ li {
     width: 20vw;
 }
 
-.content__item {
+.produto__item {
     width: 200px;
+    height: 400px;
 }
 
 /*formulario*/
