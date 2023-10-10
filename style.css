@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+
+.logo, .git {
+    width: 100px;
+}
+
+.git i {
+    font-size: 30px;
+    display: block;
+}
+
+.search {
+    cursor: pointer;
+    background-color: white;
+    width: 300px;
+}
+
+.search input {
+    width: 92%;
+    outline: none;
+}
+
+.img__item{
+    width: 20vw;
+}
+
+.content__item {
+    width: 200px;
+}
+
+/*formulario*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+    
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+/*fim do formulario*/
