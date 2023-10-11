@@ -44,7 +44,7 @@ li {
 
 /*formulario*/
 
-.formulario {
+#formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;

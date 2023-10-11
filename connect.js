@@ -1,11 +1,12 @@
 async function getConnectApi() {
-    const api = await fetch("http://localhost:3000/produtos")
+    const api = await fetch("https://profrodolfo.com.br/api/listar")
     const apiJson = await api.json()
+    console.log(apiJson)
     return apiJson
 }
 
 async function criarProduto(nome, valor, foto) {
-    const conexao = await fetch("http://localhost:3000/produtos", {
+    const conexao = await fetch("https://profrodolfo.com.br/api/put", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -21,7 +22,14 @@ async function criarProduto(nome, valor, foto) {
     return conexaoJson
 }
 
+async function deletaCard(id) {
+    const conexao = await fetch(`https://profrodolfo.com.br/api/delete/${id}`)
+    const conexaoJson = await conexao.json()
+    return conexaoJson
+}
+
 export const connectApi = {
     getConnectApi,
-    criarProduto
+    criarProduto,
+    deletaCard
 }
